@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronos VM", "Chronos VM\Chronos VM.csproj", "{A988D95C-0A55-40C3-9DF5-9545E6822C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual Machine", "Virtual Machine\Virtual Machine.csproj", "{A245751A-1C7A-48DD-ACFD-5876ADDD0DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblerLibrary", "AssemblerLibrary\AssemblerLibrary.csproj", "{07BD8EDC-07C2-4570-AFE4-BC71ECE5ADB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembler", "Assembler\Assembler.csproj", "{9B732D67-6CF5-43FC-8136-65AF8A00017F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A988D95C-0A55-40C3-9DF5-9545E6822C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A988D95C-0A55-40C3-9DF5-9545E6822C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A988D95C-0A55-40C3-9DF5-9545E6822C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A988D95C-0A55-40C3-9DF5-9545E6822C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A245751A-1C7A-48DD-ACFD-5876ADDD0DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A245751A-1C7A-48DD-ACFD-5876ADDD0DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A245751A-1C7A-48DD-ACFD-5876ADDD0DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A245751A-1C7A-48DD-ACFD-5876ADDD0DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BD8EDC-07C2-4570-AFE4-BC71ECE5ADB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BD8EDC-07C2-4570-AFE4-BC71ECE5ADB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BD8EDC-07C2-4570-AFE4-BC71ECE5ADB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BD8EDC-07C2-4570-AFE4-BC71ECE5ADB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B732D67-6CF5-43FC-8136-65AF8A00017F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B732D67-6CF5-43FC-8136-65AF8A00017F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B732D67-6CF5-43FC-8136-65AF8A00017F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B732D67-6CF5-43FC-8136-65AF8A00017F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
