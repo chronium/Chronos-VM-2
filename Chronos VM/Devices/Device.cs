@@ -12,6 +12,6 @@ namespace Chronos_VM {
 		public abstract void Init();
 		public virtual void ReceiveData(int port, uint data) { }
 		public virtual uint RequestData(int port) { return 0; }
-		public virtual void Update() { }
+		public abstract void Update();
 	}
 }

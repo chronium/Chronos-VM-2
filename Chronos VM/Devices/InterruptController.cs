@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 namespace Chronos_VM.Devices {
 	public class InterruptController : Device {
 		public override void Init() {
-			throw new NotImplementedException();
+		}
+
+		public override void Update() {
 		}
 	}
 }

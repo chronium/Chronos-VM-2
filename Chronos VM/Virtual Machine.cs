@@ -1,4 +1,5 @@
-﻿using Chronos_VM.Instructions;
+﻿using Chronos_VM.Devices;
+using Chronos_VM.Instructions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,8 @@ namespace Chronos_VM {
 		public Registers registers = new Registers();
 		public Memory memory;
 
+		public InterruptController interruptController;
+
 		public bool equal = false;
 		public bool greater = false;
 
@@ -19,6 +22,7 @@ namespace Chronos_VM {
 
 		public VirtualMachine(int size) {
 			memory = new Memory(size);
+			interruptController = new InterruptController();
 		}
 
 		public void setProgram(byte[] program, int entryPoint) {
@@ -39,9 +43,14 @@ namespace Chronos_VM {
 				System.Threading.Thread.Sleep(0x1000);
 		}
 
+		public void updateDevices() {
+			interruptController.Update();
+		}
+
 		public void run(object o, System.Timers.ElapsedEventArgs args) {
 			this.clock.Enabled = false;
 			for (int i = 0; i < this.instructionsPerSecond / 100; i++) {
+				updateDevices();
 				int oldIP = IP;
 				byte opcode = memory[(uint)IP];
 				if (opcode <= instructions.Length)

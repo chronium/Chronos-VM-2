@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblerLibrary", "Assembl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembler", "Assembler\Assembler.csproj", "{9B732D67-6CF5-43FC-8136-65AF8A00017F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenizerLib", "TokenizerLib\TokenizerLib.csproj", "{DFC28375-E7CC-4EAD-98E4-855FD3ECCB9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinnamon", "Cinnamon\Cinnamon.csproj", "{F2D49BAB-6C06-4DDF-934A-488B12F57B23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{9B732D67-6CF5-43FC-8136-65AF8A00017F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B732D67-6CF5-43FC-8136-65AF8A00017F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B732D67-6CF5-43FC-8136-65AF8A00017F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC28375-E7CC-4EAD-98E4-855FD3ECCB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC28375-E7CC-4EAD-98E4-855FD3ECCB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC28375-E7CC-4EAD-98E4-855FD3ECCB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC28375-E7CC-4EAD-98E4-855FD3ECCB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D49BAB-6C06-4DDF-934A-488B12F57B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D49BAB-6C06-4DDF-934A-488B12F57B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D49BAB-6C06-4DDF-934A-488B12F57B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D49BAB-6C06-4DDF-934A-488B12F57B23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -32,8 +32,89 @@ namespace Chronos_VM {
 			}
 		}
 
+		public static short CL;
+		public static short CH;
+
+		public static uint C {
+			get {
+				return (uint)((CL << 16) | (CH & 0xFFFF));
+			}
+			set {
+				CL = (short)((value & 0xFFFF0000) >> 16);
+				CH = (short)((value & 0x0000FFFF));
+			}
+		}
+
+		public static short DL;
+		public static short DH;
+
+		public static uint D {
+			get {
+				return (uint)((DL << 16) | (DH & 0xFFFF));
+			}
+			set {
+				DL = (short)((value & 0xFFFF0000) >> 16);
+				DH = (short)((value & 0x0000FFFF));
+			}
+		}
+
+		public static short EL;
+		public static short EH;
+
+		public static uint E {
+			get {
+				return (uint)((EL << 16) | (EH & 0xFFFF));
+			}
+			set {
+				EL = (short)((value & 0xFFFF0000) >> 16);
+				EH = (short)((value & 0x0000FFFF));
+			}
+		}
+
+		public static short FL;
+		public static short FH;
+
+		public static uint F {
+			get {
+				return (uint)((FL << 16) | (FH & 0xFFFF));
+			}
+			set {
+				FL = (short)((value & 0xFFFF0000) >> 16);
+				FH = (short)((value & 0x0000FFFF));
+			}
+		}
+
+		public static short XL;
+		public static short XH;
+
+		public static uint X {
+			get {
+				return (uint)((XL << 16) | (XH & 0xFFFF));
+			}
+			set {
+				XL = (short)((value & 0xFFFF0000) >> 16);
+				XH = (short)((value & 0x0000FFFF));
+			}
+		}
+
+		public static short YL;
+		public static short YH;
+
+		public static uint Y {
+			get {
+				return (uint)((YL << 16) | (YH & 0xFFFF));
+			}
+			set {
+				YL = (short)((value & 0xFFFF0000) >> 16);
+				YH = (short)((value & 0x0000FFFF));
+			}
+		}
+
+		public static uint BP, SP, IP;
+
 		public Registers() {
-			A = B = 0;
+			A = B = C = D = E = F = X = Y = 0;
+			BP = SP = IP;
 		}
 
 		public void setReg(Register reg, uint value) {
@@ -55,6 +136,57 @@ namespace Chronos_VM {
 					break;
 				case 5:
 					BH = (short)value;
+					break;
+				case 6:
+					C = value;
+					break;
+				case 7:
+					CL = (short)value;
+					break;
+				case 8:
+					CH = (short)value;
+					break;
+				case 9:
+					D = value;
+					break;
+				case 10:
+					DL = (short)value;
+					break;
+				case 11:
+					DH = (short)value;
+					break;
+				case 12:
+					E = value;
+					break;
+				case 13:
+					EL = (short)value;
+					break;
+				case 14:
+					EH = (short)value;
+					break;
+				case 15:
+					F = value;
+					break;
+				case 16:
+					FL = (short)value;
+					break;
+				case 17:
+					FH = (short)value;
+					break;
+				case 18:
+					X = value;
+					break;
+				case 19:
+					Y = value;
+					break;
+				case 20:
+					BP = value;
+					break;
+				case 21:
+					SP = value;
+					break;
+				case 22:
+					IP = value;
 					break;
 			}
 		}
@@ -131,6 +263,23 @@ namespace Chronos_VM {
 		AH,
 		B,
 		BL,
-		BH
+		BH,
+		C,
+		CL,
+		CH,
+		D,
+		DL,
+		DH,
+		E,
+		EL,
+		EH,
+		F,
+		FL,
+		FH,
+		X,
+		Y,
+		BP,
+		SP,
+		IP
 	}
 }

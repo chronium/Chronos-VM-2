@@ -41,6 +41,9 @@ namespace Chronos_VM {
 
 		public virtual void initialize() {
 		}
+
+		public override void Update() {
+		}
 	}
 
 	public enum OutputType {

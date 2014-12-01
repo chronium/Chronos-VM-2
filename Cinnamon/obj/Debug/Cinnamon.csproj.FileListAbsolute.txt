@@ -1,0 +1,8 @@
+I:\ChronosVM\Chronos VM\Cinnamon\bin\Debug\Cinnamon.exe.config
+I:\ChronosVM\Chronos VM\Cinnamon\bin\Debug\Cinnamon.exe
+I:\ChronosVM\Chronos VM\Cinnamon\bin\Debug\Cinnamon.pdb
+I:\ChronosVM\Chronos VM\Cinnamon\bin\Debug\TokenizerLib.dll
+I:\ChronosVM\Chronos VM\Cinnamon\bin\Debug\TokenizerLib.pdb
+I:\ChronosVM\Chronos VM\Cinnamon\obj\Debug\Cinnamon.csprojResolveAssemblyReference.cache
+I:\ChronosVM\Chronos VM\Cinnamon\obj\Debug\Cinnamon.exe
+I:\ChronosVM\Chronos VM\Cinnamon\obj\Debug\Cinnamon.pdb
