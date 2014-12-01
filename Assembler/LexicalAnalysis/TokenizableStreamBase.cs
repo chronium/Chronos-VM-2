@@ -29,7 +29,7 @@ namespace Assembler.LxecialAnalysis {
 			Index++;
 		}
 
-		private bool EOF(int lookahead) {
+		private bool EOF(int lookahead = 0) {
 			if (Index + lookahead >= Items.Count) 
 				return true;
 			return false;
@@ -39,7 +39,7 @@ namespace Assembler.LxecialAnalysis {
 			return EOF(0);
 		}
 
-		public virtual T Peek(int lookahead) {
+		public virtual T Peek(int lookahead = 0) {
 			if (EOF(lookahead))
 				return null;
 			return Items[Index + lookahead];
