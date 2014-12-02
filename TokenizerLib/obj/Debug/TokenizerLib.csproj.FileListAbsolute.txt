@@ -1,5 +1,0 @@
-I:\ChronosVM\Chronos VM\TokenizerLib\obj\Debug\TokenizerLib.csprojResolveAssemblyReference.cache
-I:\ChronosVM\Chronos VM\TokenizerLib\bin\Debug\TokenizerLib.dll
-I:\ChronosVM\Chronos VM\TokenizerLib\bin\Debug\TokenizerLib.pdb
-I:\ChronosVM\Chronos VM\TokenizerLib\obj\Debug\TokenizerLib.dll
-I:\ChronosVM\Chronos VM\TokenizerLib\obj\Debug\TokenizerLib.pdb
