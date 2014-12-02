@@ -254,7 +254,24 @@ namespace AssemblerLibrary {
 		AH,
 		B,
 		BL,
-		BH
+		BH,
+		C,
+		CL,
+		CH,
+		D,
+		DL,
+		DH,
+		E,
+		EL,
+		EH,
+		F,
+		FL,
+		FH,
+		X,
+		Y,
+		BP,
+		SP,
+		IP
 	}
 
 	[Flags]
