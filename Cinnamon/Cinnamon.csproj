@@ -52,6 +52,7 @@
     <Compile Include="Parsing\Maybe.cs" />
     <Compile Include="Parsing\ParseableTokenStream.cs" />
     <Compile Include="Parsing\Parser.cs" />
+    <Compile Include="Parsing\TestVisitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
