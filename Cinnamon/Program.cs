@@ -10,9 +10,10 @@ using TokenizerLib;
 namespace Cinnamon {
 	class Program {
 		static void Main(string[] args) {
-			Parser parser = new Parser(new Lexer(";", getMatchers()));
+			Parser parser = new Parser(new Lexer("int test = 10; int anotherTest = 15;", getMatchers()));
 			TestVisitor visitor = new TestVisitor();
-			parser.Parse().Visit(visitor);
+			foreach (Ast ast in parser.Parse())
+				ast.Visit(visitor);
 			Console.Read();
 		}
 
@@ -20,6 +21,10 @@ namespace Cinnamon {
 			List<IMatcher> matchers = new List<IMatcher>();
 
 			matchers.Add(new MatchKeyword(AST.KeywordType.Semicolon, ";"));
+			matchers.Add(new MatchKeyword(AST.KeywordType.Assignment, "="));
+			matchers.Add(new MatchKeyword(AST.KeywordType.Int, "int"));
+			matchers.Add(new MatchIntLiteral());
+			matchers.Add(new MatchWord());
 
 			return matchers;
 		}

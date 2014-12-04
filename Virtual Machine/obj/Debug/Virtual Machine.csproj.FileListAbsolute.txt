@@ -1,0 +1,25 @@
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Virtual Machine\bin\Debug\Virtual Machine.exe.config
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Virtual Machine\bin\Debug\Virtual Machine.exe
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Virtual Machine\bin\Debug\Virtual Machine.pdb
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Virtual Machine\bin\Debug\Chronos VM.dll
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Virtual Machine\bin\Debug\Chronos VM.pdb
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Virtual Machine\obj\Debug\Virtual Machine.csprojResolveAssemblyReference.cache
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Virtual Machine\obj\Debug\Virtual Machine.exe
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Virtual Machine\obj\Debug\Virtual Machine.pdb
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Virtual Machine\obj\Debug\Virtual Machine.csproj.GenerateResource.Cache
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Virtual Machine\obj\Debug\Virtual_Machine.Screen.resources
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Virtual Machine\bin\Debug\AssemblerLibrary.dll
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Virtual Machine\bin\Debug\AssemblerLibrary.pdb
+I:\ChronosVM\Chronos VM\Virtual Machine\bin\Debug\Virtual Machine.exe.config
+I:\ChronosVM\Chronos VM\Virtual Machine\obj\Debug\Virtual Machine.exe
+I:\ChronosVM\Chronos VM\Virtual Machine\obj\Debug\Virtual Machine.pdb
+I:\ChronosVM\Chronos VM\Virtual Machine\bin\Debug\Virtual Machine.exe
+I:\ChronosVM\Chronos VM\Virtual Machine\bin\Debug\Virtual Machine.pdb
+I:\ChronosVM\Chronos VM\Virtual Machine\bin\Debug\AssemblerLibrary.dll
+I:\ChronosVM\Chronos VM\Virtual Machine\bin\Debug\Chronos VM.dll
+I:\ChronosVM\Chronos VM\Virtual Machine\bin\Debug\AssemblerLibrary.pdb
+I:\ChronosVM\Chronos VM\Virtual Machine\bin\Debug\Chronos VM.pdb
+I:\ChronosVM\Chronos VM\Virtual Machine\obj\Debug\Virtual Machine.csprojResolveAssemblyReference.cache
+I:\ChronosVM\Chronos VM\Virtual Machine\obj\Debug\Virtual_Machine.Screen.resources
+I:\ChronosVM\Chronos VM\Virtual Machine\obj\Debug\Virtual Machine.csproj.GenerateResource.Cache
+I:\ChronosVM\Chronos VM\Virtual Machine\bin\Debug\font.bin

@@ -9,10 +9,7 @@ using TokenizerLib;
 
 namespace Cinnamon.Parsing {
 	public abstract class Ast : IAcceptVisitor {
-		public Token Token { get; set; }
-
-		public Ast(Token token) {
-			this.Token = token;
+		public Ast() {
 		}
 
 		public abstract void Visit(IAstVisitor visitor);

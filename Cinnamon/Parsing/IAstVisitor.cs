@@ -9,5 +9,6 @@ namespace Cinnamon.Parsing {
 	public interface IAstVisitor {
 		void Visit(Test ast);
 		void Visit(ScopeDeclr ast);
+		void Visit(AssignmentNode ast);
 	}
 }

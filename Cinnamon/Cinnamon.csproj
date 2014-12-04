@@ -41,11 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AST\AssignmentNode.cs" />
     <Compile Include="AST\AstType.cs" />
+    <Compile Include="AST\IntLiteralNode.cs" />
     <Compile Include="AST\ScopeDeclr.cs" />
     <Compile Include="AST\Test.cs" />
     <Compile Include="AST\Tokens.cs" />
+    <Compile Include="AST\TypeValue.cs" />
+    <Compile Include="Matchers\MatchIntLiteral.cs" />
     <Compile Include="Matchers\MatchKeyword.cs" />
+    <Compile Include="Matchers\MatchWord.cs" />
     <Compile Include="Parsing\Ast.cs" />
     <Compile Include="Parsing\IAcceptVisitor.cs" />
     <Compile Include="Parsing\IAstVisitor.cs" />

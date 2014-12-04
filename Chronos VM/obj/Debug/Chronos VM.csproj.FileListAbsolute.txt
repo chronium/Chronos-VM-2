@@ -1,0 +1,10 @@
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Chronos VM\obj\Debug\Chronos VM.csprojResolveAssemblyReference.cache
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Chronos VM\bin\Debug\Chronos VM.dll
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Chronos VM\bin\Debug\Chronos VM.pdb
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Chronos VM\obj\Debug\Chronos VM.dll
+C:\Users\TheTimeKeeper\Documents\Visual Studio 2013\Projects\Chronos VM\Chronos VM\obj\Debug\Chronos VM.pdb
+I:\ChronosVM\Chronos VM\Chronos VM\bin\Debug\Chronos VM.dll
+I:\ChronosVM\Chronos VM\Chronos VM\bin\Debug\Chronos VM.pdb
+I:\ChronosVM\Chronos VM\Chronos VM\obj\Debug\Chronos VM.csprojResolveAssemblyReference.cache
+I:\ChronosVM\Chronos VM\Chronos VM\obj\Debug\Chronos VM.dll
+I:\ChronosVM\Chronos VM\Chronos VM\obj\Debug\Chronos VM.pdb

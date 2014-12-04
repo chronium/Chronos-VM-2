@@ -20,7 +20,23 @@ namespace Cinnamon.AST {
 		}
 	}
 
+	public class TokenIntLiteral : Token {
+		public int Value { get; private set; }
+
+		public TokenIntLiteral(int value) : base(value.ToString()) {
+			Value = value;
+		}
+	}
+
+	public class Statement : Token {
+		public Statement(string value)
+			: base(value) {
+		}
+	}
+
 	public enum KeywordType {
 		Semicolon,
+		Int,
+		Assignment,
 	}
 }

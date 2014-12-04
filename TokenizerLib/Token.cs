@@ -10,6 +10,10 @@ namespace TokenizerLib {
 		public Token(string val) {
 			Value = val;
 		}
+
+		public override string ToString() {
+			return Value;
+		}
 	}
 
 	public class EOF : Token {

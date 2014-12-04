@@ -8,5 +8,7 @@ namespace Cinnamon.AST.Types {
 	public enum AstType {
 		ScopeDeclr,
 		Test,
+		IntLiteral,
+		Assignment,
 	}
 }

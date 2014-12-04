@@ -14,12 +14,12 @@ namespace Cinnamon.Parsing {
 			TokenStream = new ParseableTokenStream(lexer);
 		}
 
-		public Ast Parse() {
+		public List<Ast> Parse() {
 			var statement = new List<Ast>();
 
 			while (TokenStream.current.GetType() != typeof(EOF))
-				statement.Add(Test());
-			return statement[0];
+				statement.Add(Assignment());
+			return statement;
 		}
 
 		private Ast Test() {
@@ -27,7 +27,43 @@ namespace Cinnamon.Parsing {
 				if (TokenStream.current is Keyword)
 					if (((Keyword)TokenStream.current).KeywordType == KeywordType.Semicolon) {
 						TokenStream.Consume();
-						return new Test(TokenStream.current);
+						return new Test();
+					}
+				return null;
+			};
+
+			return TokenStream.Capture(op);
+		}
+
+		private Ast IntLiteral() {
+			Func<Ast> op = () => {
+				if (TokenStream.current is TokenIntLiteral) {
+					int value = ((TokenIntLiteral)TokenStream.current).Value;
+					TokenStream.Consume();
+					return new IntLiteralNode(value);
+				}
+
+				return null;
+			};
+
+			return TokenStream.Capture(op);
+		}
+
+		private Ast Assignment() {
+			Func<Ast> op = () => {
+				if (TokenStream.current is Keyword)
+					if (((Keyword)TokenStream.current).KeywordType == KeywordType.Int) {
+						TokenStream.Consume();
+						if (TokenStream.current is Statement) {
+							string name = TokenStream.current.Value;
+							TokenStream.Consume();
+							if (((Keyword)TokenStream.current).KeywordType == KeywordType.Assignment) {
+								TokenStream.Consume();
+								IntLiteralNode val = (IntLiteralNode)TokenStream.Capture(IntLiteral);
+								TokenStream.Consume();
+								return new AssignmentNode(TypeValue.Integer, name, val.Value);
+							}
+						}
 					}
 				return null;
 			};

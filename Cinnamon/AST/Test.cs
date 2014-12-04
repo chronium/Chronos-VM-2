@@ -9,7 +9,7 @@ using TokenizerLib;
 namespace Cinnamon.AST {
 	public class Test : Ast {
 
-		public Test(Token token) : base(token) {
+		public Test() : base() {
 		}
 
 		public override void Visit(IAstVisitor visitor) {

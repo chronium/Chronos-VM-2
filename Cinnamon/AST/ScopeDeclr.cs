@@ -11,7 +11,7 @@ namespace Cinnamon.AST {
 		public List<Ast> ScopedStatements { get; private set; }
 
 		public ScopeDeclr(List<Ast> statements)
-			: base(new ScopeStart()) {
+			: base() {
 				ScopedStatements = statements;
 		}
 
