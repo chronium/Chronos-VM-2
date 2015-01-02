@@ -16,7 +16,7 @@
 				return false;
 			}
 
-			if (((Token)obj).Value == this.Value)
+			if (((Token)obj).Value.GetHashCode() == this.Value.GetHashCode())
 				return true;
 
 			return base.Equals(obj);
