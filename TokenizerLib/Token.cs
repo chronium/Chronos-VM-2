@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace TokenizerLib {
+﻿namespace TokenizerLib {
 	public class Token {
 		public string Value { get; set; }
 
@@ -13,6 +8,22 @@ namespace TokenizerLib {
 
 		public override string ToString() {
 			return Value;
+		}
+
+		public override bool Equals(object obj) {
+
+			if (obj == null || GetType() != obj.GetType()) {
+				return false;
+			}
+
+			if (((Token)obj).Value == this.Value)
+				return true;
+
+			return base.Equals(obj);
+		}
+
+		public override int GetHashCode() {
+			return Value != null ? Value.GetHashCode() : 0;
 		}
 	}
 
